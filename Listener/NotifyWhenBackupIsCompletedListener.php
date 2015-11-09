@@ -3,7 +3,6 @@
 namespace JGI\DeadmanssnitchBundle\Listener;
 
 use Dizda\CloudBackupBundle\Event\BackupEvent;
-use GuzzleHttp\Message\MessageFactory;
 use Http\Discovery\HttpClientDiscovery;
 use Http\Discovery\MessageFactoryDiscovery;
 
