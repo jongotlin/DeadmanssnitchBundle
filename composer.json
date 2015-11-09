@@ -1,0 +1,16 @@
+{
+    "name": "jongotlin/deadmanssnitch-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jon Gotlin",
+            "email": "jon@jon.se"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "JGI\\DeadmanssnitchBundle\\": ""
+        }
+    }
+}
