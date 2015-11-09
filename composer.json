@@ -9,7 +9,7 @@
     ],
     "require": {
         "dizda/cloud-backup-bundle": "dev-master",
-        "php-http/adapter-implementation": "@dev"
+        "php-http/client-implementation": "@dev"
     },
     "require-dev": {
         "php-http/guzzle6-adapter": "~0.1",
