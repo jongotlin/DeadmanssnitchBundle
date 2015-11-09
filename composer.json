@@ -16,7 +16,6 @@
         "php-http/httplug": "dev-master",
         "php-http/message-factory": "dev-master",
         "php-http/discovery": "dev-master"
-
     },
     "autoload": {
         "psr-4": {
