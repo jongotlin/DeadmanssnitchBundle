@@ -8,19 +8,11 @@
         }
     ],
     "require": {
-        "dizda/cloud-backup-bundle": "dev-master",
-        "php-http/client-implementation": "@dev"
-    },
-    "require-dev": {
-        "php-http/guzzle6-adapter": "~0.1",
-        "php-http/httplug": "dev-master",
-        "php-http/message-factory": "dev-master",
-        "php-http/discovery": "dev-master"
+        "dizda/cloud-backup-bundle": "dev-master"
     },
     "autoload": {
         "psr-4": {
             "JGI\\DeadmanssnitchBundle\\": ""
         }
-    },
-    "minimum-stability": "dev"
+    }
 }

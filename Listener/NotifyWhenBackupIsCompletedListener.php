@@ -3,8 +3,6 @@
 namespace JGI\DeadmanssnitchBundle\Listener;
 
 use Dizda\CloudBackupBundle\Event\BackupEvent;
-use Http\Discovery\HttpClientDiscovery;
-use Http\Discovery\MessageFactoryDiscovery;
 
 class NotifyWhenBackupIsCompletedListener
 {
@@ -26,7 +24,6 @@ class NotifyWhenBackupIsCompletedListener
      */
     public function whenBackupIsCompleted(BackupEvent $event)
     {
-        $request = MessageFactoryDiscovery::find()->createRequest('GET', $this->url);
-        HttpClientDiscovery::find()->sendRequest($request);
+        file_get_contents($this->url);
     }
 }
