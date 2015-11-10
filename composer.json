@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "dizda/cloud-backup-bundle": "dev-master"
+        "dizda/cloud-backup-bundle": "~3.2"
     },
     "autoload": {
         "psr-4": {
