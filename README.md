@@ -35,12 +35,12 @@ Configuration
 Here is the default configuration for the bundle:
 
 ```yml
+# app/config/config.yml
 jgi_deadmanssnitch:
     url: %deadmanssnitch_url%
 ```
 
 ```yml
 # app/config/parameters.yml
-	# ...
-    deadmanssnitch_url: https://nosnch.in/xxxxxxxx
+deadmanssnitch_url: https://nosnch.in/xxxxxxxx
 ```
