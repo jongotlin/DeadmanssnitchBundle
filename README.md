@@ -1,5 +1,6 @@
 # DeadmanssnitchBundle
 
+This bundle is an extension to [dizda/CloudBackupBundle](https://github.com/dizda/CloudBackupBundle) and lets you ping [deadmanssnitch.com](http://www.deadmanssnitch.com) when a successful backup is completed.
 
 Installation (>=Symfony 2.1)
 ------------
