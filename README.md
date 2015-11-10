@@ -24,7 +24,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new JGI\DeadmanssnitchBundle\JGIDeadmanssnitchBundle()(),
+        new JGI\DeadmanssnitchBundle\JGIDeadmanssnitchBundle(),
         // ...
     );
 }
