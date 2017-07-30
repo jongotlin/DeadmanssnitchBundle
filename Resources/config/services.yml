@@ -2,7 +2,7 @@ services:
     deadmanssnitch.listener.notify_when_backup_is_completed:
         class: JGI\DeadmanssnitchBundle\Listener\NotifyWhenBackupIsCompletedListener
         arguments:
-            - %deadmanssnitch.url%
+            - '%deadmanssnitch.url%'
         tags:
             - { name: kernel.event_listener, event: dizda.cloudbackup.backup_completed, method: whenBackupIsCompleted }
 
